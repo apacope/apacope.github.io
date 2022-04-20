@@ -118,6 +118,18 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0px;
   border-left: 1px solid rgb(173, 170, 170);
 }
+.fh5co-nav .noshow{
+	color: #000;
+  padding: 0px;
+  font-size: 30px; 
+	
+}
+
+@media screen  {
+  .fh5co-nav .noshow{
+    display: none;
+  }
+}
 
 
 .fh5co-nav .top .num, .fh5co-nav .top .fh5co-social, .fh5co-nav .top .email , .fh5co-nav .top .linker {
@@ -128,7 +140,7 @@ h1, h2, h3, h4, h5, h6, figure {
   
 }
 @media screen and (max-width: 768px) {
-  .fh5co-nav .top .num, .fh5co-nav .top .fh5co-social, .fh5co-nav .top .email {
+  .fh5co-nav .top .num, .fh5co-nav .top .fh5co-social{
     padding: 5px 10px;
     
   }
@@ -151,11 +163,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-@media screen and (max-width: 1199px) {
-  .fh5co-nav .top .linker, .fh5co-nav .top .vanish{
-    display: none;
-  }
-}
+
 
 .fh5co-nav .top .num {
   
@@ -208,7 +216,13 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 10px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-nav .menu-1 ,.fh5co-nav .top .linker,.fh5co-nav .top .vanish{
+  .fh5co-nav .menu-1 ,.fh5co-nav .top .linker,.fh5co-nav .top .vanish, .fh5co-nav .noshow, .fh5co-nav .top .email {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .fh5co-nav .top .email{
     display: none;
   }
 }
@@ -236,37 +250,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active,.fh5co-nav .top .num:hover,.fh5co-nav .top .num:focus,.fh5co-nav .top .num:active,.fh5co-nav .top .email:hover,.fh5co-nav .top .email:focus,.fh5co-nav .top .email:active,.linker:hover,.linker:focus,.linker:active{
   color: rgb(1, 17, 245);
 }
-
-.menus{
-
-padding-right: 30px;
-float: right;
-
-
-}
-
-.submenus{
-
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    border: 1px solid #999;
-    float: right;
-    list-style-type:none;
-    width: 120%;
-    margin-left: 10px;
-    background-color:#fff;
-    padding-left:30px;
-    padding-right:0px;
-    text-align: left;
-    color: black;
-
-}
-
-
-.menus ul li .settings li:hover{
-    color: red;
-    display: block;
-
-    }
 
 
 
